@@ -1,0 +1,44 @@
+#  ______                                       __  __
+# /      \                                     |  \|  \
+#|  $$$$$$\ __    __   ______    ______    ____| $$ \$$  ______   _______
+#| $$ __\$$|  \  |  \ |      \  /      \  /      $$|  \ |      \ |       \
+#| $$|    \| $$  | $$  \$$$$$$\|  $$$$$$\|  $$$$$$$| $$  \$$$$$$\| $$$$$$$\
+#| $$ \$$$$| $$  | $$ /      $$| $$   \$$| $$  | $$| $$ /      $$| $$  | $$
+#| $$__| $$| $$__/ $$|  $$$$$$$| $$      | $$__| $$| $$|  $$$$$$$| $$  | $$
+# \$$    $$ \$$    $$ \$$    $$| $$       \$$    $$| $$ \$$    $$| $$  | $$
+#  \$$$$$$   \$$$$$$   \$$$$$$$ \$$        \$$$$$$$ \$$  \$$$$$$$ \$$   \$$
+
+license: ""
+
+inventory:
+  enabled: true
+  title: "Bot Detection"
+  size: 54
+  items:
+    1:
+      item: "DIAMOND"
+      name: "&atest"
+    2:
+      item: "STONE"
+      name: "&aClick-Me"
+
+right-name: "&aClick-Me"
+kick-message: "&cBot Detected."
+
+log:
+  staff:
+    enabled: true
+    message: "&c%player% has been detected as a bot and kicked."
+  console:
+    enabled: true
+    message: "&c%player% has been detected as a bot and kicked."
+
+command:
+  guardian:
+    wrong-usage:
+      - "&f&m-----------------------------"
+      - "&d/&fguardian &denable" # Enabling ANTI-BOT protection
+      - "&d/&fguardian &ddisable" # Disabling ANTI-BOT protection
+      - "&f&m-----------------------------"
+    enabled: "&aGuardian protection has been enabled"
+    disabled: "&cGuardian protection has been disabled"

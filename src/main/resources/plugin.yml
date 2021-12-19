@@ -1,0 +1,6 @@
+name: Guardian
+version: '${project.version}'
+main: studio.aura.Guardian
+api-version: 1.18
+commands:
+  guardian:
